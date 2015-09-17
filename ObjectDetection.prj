@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration target="target.mlapps" target-name="Package App" name="ObjectDetection" location="C:\Project-1\Project-1_final\Module5_GUI_3_thrshold" file="C:\Project-1\Project-1_final\Module5_GUI_3_thrshold\ObjectDetection.prj" build-checksum="400671797">
+    <param.appname>ObjectDetection</param.appname>
+    <param.authnamewatermark>Vrushal Raut</param.authnamewatermark>
+    <param.email>vrushalrt@gmail.com</param.email>
+    <param.company>Vixous Solutions Ltd</param.company>
+    <param.icon>${PROJECT_ROOT}\ObjectDetection_24.png</param.icon>
+    <param.summary>Moving Object Detection in Video</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>Control System Toolbox</item>
+      <item>Image Processing Toolbox</item>
+      <item>System Identification Toolbox</item>
+      <item>MATLAB</item>
+      <item>Computer Vision System Toolbox</item>
+      <item>Mapping Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>3</item>
+      <item>17</item>
+      <item>4</item>
+      <item>1</item>
+      <item>96</item>
+      <item>11</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.5</item>
+      <item>8.2</item>
+      <item>8.2</item>
+      <item>8.1</item>
+      <item>5.2</item>
+      <item>3.7</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\ObjectDetection.mlappinstall</param.output>
+    <param.guid>c86c4d21-9cfe-498a-9338-8b982f100090</param.guid>
+    <unset>
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MODV.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\MODV.fig</file>
+      <file>${PROJECT_ROOT}\ObjectDetection.m</file>
+      <file>${PROJECT_ROOT}\rgbhistogram.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file name="ObjectDetection.mlappinstall" location="C:\Project-1\Project-1_final\Module5_GUI_3_thrshold" optional="false">C:\Project-1\Project-1_final\Module5_GUI_3_thrshold\ObjectDetection.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2013a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+      </toolboxes>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>win32</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
+
